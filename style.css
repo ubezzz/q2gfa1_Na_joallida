@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 98vw;
+    background-color:#D9C581;
+    padding: 1vw;
+}
+.navlinks{
+    text-decoration: none;
+    color: black;
+}
+section video{
+    height: 100vh;
+    width: 100vw; 
+    object-fit: cover;
+    position: fixed;   
+    z-index: -1;
+}
+section .para{
+    padding-top: 20vh;
+    z-index: 1;
+    text-align: left;
+    color: #242C17;
+    text-shadow: 1px 1px #80B3A7;
+    font-size: 4vh;
+    position: fixed;
+}
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0vw;
+    width: 100vw;
+}
+.icon{
+    background: url(media/sprite3.png);
+    background-repeat: no-repeat;
+	width: 66px;
+	height: 66px;
+    display: inline-block;
+}
+
+#twitter{background-position:-66px -72px}
+#instagram{background-position:-290px -221px;}
+#pinterest{background-position:-141px -221px;}
+#youtube{background-position: -439px -221px;}
